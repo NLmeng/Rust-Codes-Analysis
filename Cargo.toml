@@ -1,8 +1,9 @@
 [package]
-name = "rust"
+name = "rust_code_analysis"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+syn = { version = "1.0", features = ["full", "visit"] }
+quote = "1.0"
+walkdir = "2.3.1"
