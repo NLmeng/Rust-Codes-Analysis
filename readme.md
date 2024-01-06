@@ -1,4 +1,4 @@
-##
+## Analysis tool for Rust's DSL
 
 ## Compile and Run
 
